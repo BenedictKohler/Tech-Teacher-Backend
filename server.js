@@ -8,7 +8,7 @@ const TYPES = require("tedious").TYPES;
 const Utils = require('./Utils.js');
 
 // Constants
-const PORT = 8000;
+const PORT = process.env.PORT;
 
 const app = express();
 
